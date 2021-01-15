@@ -38,7 +38,7 @@ func isDivisible(s []byte, t []byte) bool {
 
 	// First check if t divides s
 	for i := 0; i < len(s); {
-		// Compare the runes from t to s
+		// Compare the bytes from t to s
 		for j := 0; j < len(t); i, j = i+1, j+1 {
 			if t[j] != s[i] {
 				return false
