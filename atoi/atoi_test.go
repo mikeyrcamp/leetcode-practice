@@ -15,6 +15,10 @@ func TestAtoi(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Equal(t, -100, v)
 
+	v, err = Atoi("0")
+	assert.NoError(t, err)
+	assert.Equal(t, 0, v)
+
 	v, err = Atoi("--   ")
 	assert.Error(t, err)
 	assert.Equal(t, 0, v)
