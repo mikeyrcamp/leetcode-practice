@@ -1,4 +1,4 @@
-module github.com/mikeyrcamp/leetcode-practice/atoi
+module github.com/mikeyrcamp/leetcode-practice
 
 go 1.15
 
